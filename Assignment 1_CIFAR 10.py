@@ -30,7 +30,7 @@ for i in range(1, cols * rows + 1):
 plt.show()
 
 import cv2
-from google.colab.patches import cv2_imshow # in Google Colab, use cv2_imshow() to show the cv images; use cv2.imshow() to show images if not using Google Colab
+from google.colab.patches import cv2_imshow
 
 print("shape of original image:", X_train[0].shape)
 # convert numpy array to cv2 image
